@@ -16,213 +16,140 @@
 	border-style:none
 }
 
+.headcolor {
+    background: #130d0b;
+    opacity: .8;
+}
 
+.h2custom {
+    font-family: Artbrush;
+    text-align: center;
+    font-size: 2.2em;
+    color: #00748f;
+}
 
 footer {
-    color: #ccc;
-    padding: 10px 0 0 0;
-    border-top: 1px solid #dddddd;
+    background: #e8e8e8;
+    color: #666;
+    padding: 15px 0 0 0;
+    border-top: 1px solid #e2e2e2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 28px;
 }
     footer a {
-        color: #999;
+        color: #6A4A3C;
     }
         footer a:hover {
-            color: #efefef;
+            color: #00A0B0;
         }
 
-        /*Spin Style*/
-#fountainG{
-position:relative;
-width:240px;
-height:29px}
-
-.fountainG{
-position:absolute;
-top:0;
-background-color:#FF000D;
-width:29px;
-height:29px;
--moz-animation-name:bounce_fountainG;
--moz-animation-duration:1.4s;
--moz-animation-iteration-count:infinite;
--moz-animation-direction:linear;
--moz-transform:scale(.3);
--moz-border-radius:19px;
--webkit-animation-name:bounce_fountainG;
--webkit-animation-duration:1.4s;
--webkit-animation-iteration-count:infinite;
--webkit-animation-direction:linear;
--webkit-transform:scale(.3);
--webkit-border-radius:19px;
--ms-animation-name:bounce_fountainG;
--ms-animation-duration:1.4s;
--ms-animation-iteration-count:infinite;
--ms-animation-direction:linear;
--ms-transform:scale(.3);
--ms-border-radius:19px;
--o-animation-name:bounce_fountainG;
--o-animation-duration:1.4s;
--o-animation-iteration-count:infinite;
--o-animation-direction:linear;
--o-transform:scale(.3);
--o-border-radius:19px;
-animation-name:bounce_fountainG;
-animation-duration:1.4s;
-animation-iteration-count:infinite;
-animation-direction:linear;
-transform:scale(.3);
-border-radius:19px;
+.form-wrapper {
+        width: 450px;
+        padding: 8px;
+        overflow: hidden;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #dedede #bababa #aaa #bababa;
+        -moz-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+        -webkit-box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+        box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background-color: #f6f6f6;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eae8e8));
+        background-image: -webkit-linear-gradient(top, #f6f6f6, #eae8e8);
+        background-image: -moz-linear-gradient(top, #f6f6f6, #eae8e8);
+        background-image: -ms-linear-gradient(top, #f6f6f6, #eae8e8);
+        background-image: -o-linear-gradient(top, #f6f6f6, #eae8e8);
+        background-image: linear-gradient(top, #f6f6f6, #eae8e8);
 }
 
-#fountainG_1{
-left:0;
--moz-animation-delay:0.56s;
--webkit-animation-delay:0.56s;
--ms-animation-delay:0.56s;
--o-animation-delay:0.56s;
-animation-delay:0.56s;
+.form-wrapper #search {
+        width: 330px;
+        height: 20px;
+        padding: 10px 5px;
+        float: left;
+        font: bold 16px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        border: 1px solid #ccc;
+        -moz-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+        -webkit-box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+        box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
 }
 
-#fountainG_2{
-left:30px;
--moz-animation-delay:0.7s;
--webkit-animation-delay:0.7s;
--ms-animation-delay:0.7s;
--o-animation-delay:0.7s;
-animation-delay:0.7s;
+.form-wrapper #search:focus {
+        outline: 0;
+        border-color: #aaa;
+        -moz-box-shadow: 0 1px 1px #bbb inset;
+        -webkit-box-shadow: 0 1px 1px #bbb inset;
+        box-shadow: 0 1px 1px #bbb inset;
 }
 
-#fountainG_3{
-left:60px;
--moz-animation-delay:0.84s;
--webkit-animation-delay:0.84s;
--ms-animation-delay:0.84s;
--o-animation-delay:0.84s;
-animation-delay:0.84s;
+.form-wrapper #search::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
 }
 
-#fountainG_4{
-left:90px;
--moz-animation-delay:0.98s;
--webkit-animation-delay:0.98s;
--ms-animation-delay:0.98s;
--o-animation-delay:0.98s;
-animation-delay:0.98s;
+.form-wrapper #search:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
 }
 
-#fountainG_5{
-left:120px;
--moz-animation-delay:1.12s;
--webkit-animation-delay:1.12s;
--ms-animation-delay:1.12s;
--o-animation-delay:1.12s;
-animation-delay:1.12s;
+.form-wrapper #search:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+} 
+
+.form-wrapper #submit {
+        float: right;
+        border: 1px solid #00748f;
+        height: 42px;
+        width: 100px;
+        padding: 0;
+        cursor: pointer;
+        font: bold 15px Arial, Helvetica;
+        color: #fafafa;
+        text-transform: uppercase;
+        background-color: #0483a0;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#31b2c3), to(#0483a0));
+        background-image: -webkit-linear-gradient(top, #31b2c3, #0483a0);
+        background-image: -moz-linear-gradient(top, #31b2c3, #0483a0);
+        background-image: -ms-linear-gradient(top, #31b2c3, #0483a0);
+        background-image: -o-linear-gradient(top, #31b2c3, #0483a0);
+        background-image: linear-gradient(top, #31b2c3, #0483a0);
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+        -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #fff;
+        -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #fff;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #fff;
 }
 
-#fountainG_6{
-left:150px;
--moz-animation-delay:1.26s;
--webkit-animation-delay:1.26s;
--ms-animation-delay:1.26s;
--o-animation-delay:1.26s;
-animation-delay:1.26s;
+.form-wrapper #submit:hover,
+.form-wrapper #submit:focus {
+        background-color: #31b2c3;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#0483a0), to(#31b2c3));
+        background-image: -webkit-linear-gradient(top, #0483a0, #31b2c3);
+        background-image: -moz-linear-gradient(top, #0483a0, #31b2c3);
+        background-image: -ms-linear-gradient(top, #0483a0, #31b2c3);
+        background-image: -o-linear-gradient(top, #0483a0, #31b2c3);
+        background-image: linear-gradient(top, #0483a0, #31b2c3);
+}       
+
+.form-wrapper #submit:active {
+        outline: 0;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
 }
 
-#fountainG_7{
-left:180px;
--moz-animation-delay:1.4s;
--webkit-animation-delay:1.4s;
--ms-animation-delay:1.4s;
--o-animation-delay:1.4s;
-animation-delay:1.4s;
+.form-wrapper #submit::-moz-focus-inner {
+        border: 0;
 }
-
-#fountainG_8{
-left:210px;
--moz-animation-delay:1.54s;
--webkit-animation-delay:1.54s;
--ms-animation-delay:1.54s;
--o-animation-delay:1.54s;
-animation-delay:1.54s;
-}
-
-@-moz-keyframes bounce_fountainG{
-0%{
--moz-transform:scale(1);
-background-color:#FF000D;
-}
-
-100%{
--moz-transform:scale(.3);
-background-color:#FF000D;
-}
-
-}
-
-@-webkit-keyframes bounce_fountainG{
-0%{
--webkit-transform:scale(1);
-background-color:#FF000D;
-}
-
-100%{
--webkit-transform:scale(.3);
-background-color:#FF000D;
-}
-
-}
-
-@-ms-keyframes bounce_fountainG{
-0%{
--ms-transform:scale(1);
-background-color:#FF000D;
-}
-
-100%{
--ms-transform:scale(.3);
-background-color:#FF000D;
-}
-
-}
-
-@-o-keyframes bounce_fountainG{
-0%{
--o-transform:scale(1);
-background-color:#FF000D;
-}
-
-100%{
--o-transform:scale(.3);
-background-color:#FF000D;
-}
-
-}
-
-@keyframes bounce_fountainG{
-0%{
-transform:scale(1);
-background-color:#FF000D;
-}
-
-100%{
-transform:scale(.3);
-background-color:#FF000D;
-}
-
-}
-
-/*Error style*/
-.custom-error {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  text-align: center;
-  color: #111;
-  background: rgba(255, 0, 0, 0.6);
-  padding: 8px;
-  -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
-  list-style: none;
-  line-height: 16px;
-  display: block;
-    margin-left: 15px;
-}
-
