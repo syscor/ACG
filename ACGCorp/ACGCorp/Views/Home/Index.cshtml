@@ -2,15 +2,21 @@
     ViewBag.Title = "Home Page";
 }
 <div class="row-fluid">
-    <div class="span8 offset2" style="margin-top: 20px">
-        <h2 class="h2custom">Quiero encontrar opciones para...</h2>
+    <div class="span4 offset4" style="margin-top: 15px">
+        <h2 class="h2custom">Tus deseos...</h2>
     </div>
 </div>
 <div class="row-fluid">
-    <div class="span8 offset2">
-        <form class="form-wrapper">
+    <div class="span4 offset4">
+        <div class="form-wrapper">
             <input type="text" id="search" placeholder="Organizar un evento, ir de antro, a cenar ..." required/>
-            <input type="submit" value="Ir" id="submit"/>
-        </form>
+            <input type="button" value="Ir" id="submit"/>
+        </div>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12" style="margin-top: 15px">
+        <div class="clearfix"></div>
+       @Html.Partial("Widgets/ItemSliderView")
     </div>
 </div>
